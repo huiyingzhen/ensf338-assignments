@@ -2,7 +2,7 @@ import sys
 import matplotlib.pyplot as plt
 from time import perf_counter
 import json
-with open("ex2.2.json", "r") as j_file:
+with open("Assignment 2/ex2.2.json", "r") as j_file:
     file = json.load(j_file)
 sys.setrecursionlimit(20000)
 def func1(arr, low, high):
