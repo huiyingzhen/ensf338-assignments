@@ -18,6 +18,8 @@ def function1(n):
 
 if __name__ == "main":
     n = 35
+    calc_f1 = function1(n)
+    calc_f2 = function2(n)
     func1 = '''
     def function1(n):
         if n == 0 or n == 1:
